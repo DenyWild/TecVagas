@@ -1,0 +1,91 @@
+
+.button-candiato{
+  padding-left: 5px;
+}
+.button-empresa{
+  padding-left: 2px;
+}
+.button-sobre{
+  padding-left: 10px;
+}
+
+.menu-lc{
+  padding-left: 140vh;
+  padding-top: 10px;
+  justify-content: center;
+}
+.button-login{
+  background-color: white;
+  border-color: #94a3a7;
+  border-style: double;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: background .2s;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  box-shadow: 0px 2px  #000000;
+}
+.button-cadastro{
+  background-color: white;
+  border-color: #94a3a7;
+  border-style: double;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: background .2s;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  box-shadow: 0px 2px #000000;
+}
+
+.button-cadastro:hover {background-color: #b6beb6}
+
+.button-cadastro:active {
+  background-color: #c4d1c4;
+  box-shadow: 0 5px #d6d1d1;
+  transform: translateY(2px);
+}
+
+.button-login:hover {background-color: #b6beb6}
+
+.button-login:active {
+  background-color: #c4d1c4;
+  box-shadow: 0 5px #d6d1d1;
+  transform: translateY(2px);
+}
+
+.quadrado_divisao {
+  width: auto;
+  height: 50px;
+  background: #3cd2d3;
+  margin-top: -20px
+}
+
+.Imagem_topo{
+  margin: 0;
+}
+
+.img_rodape {
+  width: 290px;
+  left:58ch;
+  position: sticky;
+  cursor: pointer;
+  border: 2px;
+}
+
+.imglogo{
+  width: 100%;
+  display: flex;
+  float: none;
+  margin-left: 25px;
+ height: inherit;
+
+}
+

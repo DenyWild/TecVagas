@@ -12,6 +12,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
+import { AppMaterialModule } from '../shared/app-material/app-material.module';
 
 @NgModule({
   declarations: [
@@ -20,15 +21,7 @@ import { MatInputModule } from '@angular/material/input';
   imports: [
     CommonModule,
     RecuperarContaEmpresaRoutingModule,
-    MatButtonModule,
-    MatIconModule,
-    MatSlideToggleModule,
-    FormsModule,
-    MatToolbarModule,
-    BrowserModule,
-    BrowserAnimationsModule,
-    MatCardModule,
-    MatInputModule
+    AppMaterialModule
   ]
 })
 export class RecuperarContaEmpresaModule { }

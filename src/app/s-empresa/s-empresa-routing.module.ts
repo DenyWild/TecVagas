@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { SEmpresaComponent } from './s-empresa/s-empresa.component';
+
+const routes: Routes = [
+
+  {path: '', component: SEmpresaComponent}
+
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

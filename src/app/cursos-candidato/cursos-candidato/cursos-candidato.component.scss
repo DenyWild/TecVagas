@@ -1,0 +1,75 @@
+.menu{
+  height: 75px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.button-candidato{
+  padding-left: 5px;
+}
+.button-empresa{
+  padding-left: 2px;
+}
+.button-sobre{
+  padding-left: 10px;
+}
+.dark-button{
+  outline: none;
+  cursor: pointer;
+  padding-left: 159vh;
+}
+mat-card{
+  max-width: 98%;
+  margin: 2em auto;
+  text-align: left;
+}
+.inpcursos{
+  display: grid;
+}
+.inpnome-curso{
+  width: 20%;
+  height: 9vh;
+}
+.inpnome-inst{
+  width: 20%;
+  height: 9vh;
+}
+.data-input{
+  width: 25vw;
+  height: 9vh;
+}
+.dur-input{
+  width: 28vw;
+  height: 9vh;
+}
+
+.toolbar_cursos{
+  background: linear-gradient(to left, #2bf791 0%, #53b0ea 100%);
+  border-radius: 2px;
+}
+
+table{
+width: 100%;
+}
+.quadrado_divisao {
+  width: auto;
+  height: 50px;
+  background: #3cd2d3;
+  margin-top: -20px
+}
+
+.Imagem_topo{
+  margin: 0;
+}
+
+.img_rodape {
+  background-color: #3cd2d3;
+}
+
+.imglogo{
+  width: auto;
+  display: flex;
+  float: none;
+  margin-left: 25px;
+  height: inherit;
+
+}

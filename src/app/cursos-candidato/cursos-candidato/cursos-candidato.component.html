@@ -1,1 +1,94 @@
-<p>cursos-candidato works!</p>
+<mat-toolbar class="menu" color="primary">
+  <div class="button-candidato">
+     <button mat-stroked-button color="white">Candidato</button>
+   </div>
+   <div class="button-empresa">
+     <button mat-stroked-button color="white">Empresa</button>
+   </div>
+   <div class="button-sobre">
+     <button mat-stroked-button color="white">Sobre</button>
+   </div>
+   <div class="dark-button">
+     <button mat-icon-button><mat-icon>brightness_2</mat-icon></button>
+   </div>
+</mat-toolbar>
+
+ <!-- Card com os inputs necessarios para o cadastrar um curso -->
+<mat-card>
+  <form class="inpcursos">
+    <mat-form-field class="inpnome-curso">
+      <mat-label>Nome do Curso</mat-label>
+      <textarea matInput placeholder="Ex. Learning Angula material..."></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="inpnome-inst">
+      <mat-label>Nome da Instituicao</mat-label>
+      <textarea matInput placeholder="Ex. Youtube..."></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="data-input">
+      <mat-label>Escolha uma data</mat-label>
+      <input matInput [matDatepicker]="picker">
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matIconSuffix [for]="picker">
+        <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+      </mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field class="dur-input">
+      <mat-label>Duracao do Curso</mat-label>
+      <input matInput type="number" class="dur-curso" placeholder="0">
+      <span matTextSuffix>/Horas</span>
+    </mat-form-field>
+  </form>
+</mat-card>
+
+
+<!-- Card que contém a table e a toolbar  -->
+<mat-card>
+  <mat-toolbar class="toolbar_cursos">Cursos Cadastrados</mat-toolbar>
+  <!-- Tabela dos cursos registrados-->
+  <table mat-table [dataSource]="cursos" class="mat-elevation-z8">
+  <!-- Nome do curso -->
+  <ng-container matColumnDef="nome">
+    <th mat-header-cell *matHeaderCellDef> Curso </th>
+    <td mat-cell *matCellDef="let curso"> {{ curso.nome }} </td>
+  </ng-container>
+
+  <!-- Nome da Instituição do Curso -->
+  <ng-container matColumnDef="nome_instituicao">
+    <th mat-header-cell *matHeaderCellDef> Nome da Instituicao </th>
+    <td mat-cell *matCellDef="let curso"> {{curso.nome_instituicao}} </td>
+  </ng-container>
+
+  <!-- Ano de conclusão do curso -->
+  <ng-container matColumnDef="ano_conclusao">
+    <th mat-header-cell *matHeaderCellDef> Ano da Conclusao </th>
+    <td mat-cell *matCellDef="let curso"> {{curso.ano_conclusao}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="duracao">
+    <th mat-header-cell *matHeaderCellDef> Duracao em horas</th>
+    <td mat-cell *matCellDef="let curso"> {{curso.duracao}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</mat-card>
+
+<br>
+<div class="quadrado_divisao"></div>
+
+<!-- Imagem divisao padrao -->
+<div class="quadrado_divisao"></div>
+
+<div class="Imagem_centro">
+  <img src="/assets/rodape-1-3aD.png" style="width:100%">
+</div>
+<br>
+
+<div class="img_rodape"style="text-align:center;">
+  <img src="/assets/logo-png-2.png" alt="Imagem do rodapé" style="width: 350px; height: 100px;">
+</div>

@@ -1,7 +1,7 @@
 .menu{
   height: 75px;
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .button-candidato{
   padding-left: 5px;
@@ -43,7 +43,8 @@ mat-card{
 }
 
 .toolbar_cursos{
-  background: linear-gradient(to left, #2bf791 0%, #53b0ea 100%);
+  // background: linear-gradient(to left, #2bf791 0%, #53b0ea 100%);
+  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
   border-radius: 2px;
 }
 
@@ -53,7 +54,7 @@ width: 100%;
 .quadrado_divisao {
   width: auto;
   height: 50px;
-  background: #3cd2d3;
+  background: #53b0ea;
   margin-top: -20px
 }
 

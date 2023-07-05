@@ -20,7 +20,7 @@
 mat-card{
   width: auto;
   text-align: left;
-  display:  flex;
+  display:  grid;
 }
 
 .quadrado_menu {
@@ -48,7 +48,9 @@ mat-card{
   text-align: left;
   font-family: 'Noto Sans', sans-serif;
 }
-
+.img-empresa{
+  padding-bottom: 15vh;
+}
 .Imagem_topo{
   margin: 0;
 }
@@ -104,5 +106,3 @@ mat-card{
   border-radius: 15px;
   box-shadow: 0 2px #999;
 }
-
-

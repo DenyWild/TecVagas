@@ -1,13 +1,12 @@
-import { SCandidatoModule } from './s-candidato/s-candidato.module';
-import { SCandidatoComponent } from './s-candidato/s-candidato/s-candidato.component';
-import { CursosCandidatoComponent } from './cursos-candidato/cursos-candidato/cursos-candidato.component';
-import { HomeComponent } from './home/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { CursosCandidatoComponent } from './cursos-candidato/cursos-candidato/cursos-candidato.component';
 import { HomeModule } from './home/home.module';
-import { CursosCandidatoModule } from './cursos-candidato/cursos-candidato.module';
+import { HomeComponent } from './home/home/home.component';
+import { SCandidatoComponent } from './s-candidato/s-candidato/s-candidato.component';
 import { SEmpresaComponent } from './s-empresa/s-empresa/s-empresa.component';
+import { SobreComponent } from './sobre/sobre/sobre.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/home'},
@@ -23,6 +22,10 @@ const routes: Routes = [
   { path: 'sempresa', component: SEmpresaComponent},
   { path: 'sempresa',
   loadChildren: () => import('./s-empresa/s-empresa.module').then(m => m.SEmpresaModule)
+  },
+  { path: 'sobre', component: SobreComponent},
+  { path: 'sobre',
+  loadChildren: () => import('./sobre/sobre.module').then(m => m.SobreModule)
   }
 
 ];

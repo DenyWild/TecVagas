@@ -1,22 +1,21 @@
 .menu{
-  width: auto;
   height: 75px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  display: flex;
+  position: relative;
 }
 .button-candidato{
-  padding-left: 5px;
+  padding-left: 0.3vw;
 }
 .button-empresa{
-  padding-left: 2px;
+  padding-left: 0.1vw;
 }
 .button-sobre{
-  padding-left: 10px;
+  padding-left: 0.5vw;
 }
 .dark-button{
   outline: none;
   cursor: pointer;
-  padding-left: 159vh;
+  padding-left: 79.3vw;
 }
 mat-card{
   width: auto;
@@ -40,7 +39,6 @@ mat-card{
   margin-top: -20px
 }
 .regular{
-  // background-image: url("/assets/empresa-fundo-1-5iD.png");
   position: absolute;
   top: 0;
   padding-left: 0.5vw;
@@ -57,6 +55,7 @@ mat-card{
 }
 
 .img_rodape {
+  width: auto;
   background: #3cd2d3;
   text-align: center;
 }

@@ -1,27 +1,40 @@
 .menu{
   height: 75px;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  display: flex;
+  position: relative;
 }
 .button-candidato{
-  padding-left: 5px;
+  padding-left: 0.3vw;
 }
 .button-empresa{
-  padding-left: 2px;
+  padding-left: 0.1vw;
 }
 .button-sobre{
-  padding-left: 10px;
+  padding-left: 0.5vw;
 }
 .dark-button{
   outline: none;
   cursor: pointer;
-  padding-left: 159vh;
+  padding-left: 79.3vw;
 }
+.menu-lc{
+  width: auto;
+  position: relative;
+  margin-top: 0;
+  height: auto;
+  display: flex;
+  padding-left: 70%;
+  padding-bottom: 2px;
+  background: #3cd2d3;
+
+}
+
 .quadrado_divisao {
   width: auto;
   height: 50px;
-  background: #53b0ea;
+  background: #3cd2d3;
   margin-top: -20px
+
 }
 
 .Imagem_topo{
@@ -29,7 +42,9 @@
 }
 
 .img_rodape {
+  width: auto;
   background-color: #3cd2d3;
+  text-align: center;
 }
 
 .imglogo{
@@ -40,19 +55,6 @@
   height: inherit;
 
 }
-
-.menu-lc{
-  margin-top: 0;
-  max-width: 100%;
-  height: auto;
-  display: flexbox;
-  padding-left: 140vh;
-  padding-bottom: 2px;
-  justify-content: center;
-  background: #53b0ea;
-  margin-top: -20px
-}
-
 
 .button-login{
   background-color: rgb(224, 221, 221);

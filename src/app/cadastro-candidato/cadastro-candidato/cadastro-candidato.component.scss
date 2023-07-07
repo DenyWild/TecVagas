@@ -1,0 +1,182 @@
+.menu{
+  height: 75px;
+  display: flex;
+  position: relative;
+}
+.button-candidato{
+  padding-left: 0.3vw;
+}
+.button-empresa{
+  padding-left: 0.1vw;
+}
+.button-sobre{
+  padding-left: 0.5vw;
+}
+.dark-button{
+  outline: none;
+  cursor: pointer;
+  padding-left: 79.3vw;
+}
+
+mat-card{
+  position: relative;
+  max-width: 38%;
+  margin: 0em auto;
+  background-color: #e9ecec;
+}
+.inp-candidatocad{
+  padding-left: 25%;
+  padding-top: 1vh;
+  width: 50%;
+  position: static;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.inpnome-comp{
+  width: auto;
+  height: auto;
+}
+.inpnome-inst{
+  width: auto;
+  height: auto;
+}
+.data-input{
+  width: auto;
+  height: auto;
+}
+.dur-input{
+  width: auto;
+  height: auto;
+}
+
+.quadrado_menu {
+  width: auto;
+  padding-left: 46.2%;
+  height: 50px;
+  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
+  border-radius: 2px;
+  padding-bottom: 1px;
+}
+
+.quadrado_divisao {
+  width: auto;
+  height: 50px;
+  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
+  margin-top: -20px
+}
+.quadrado_divisao2 {
+  width: auto;
+  height: 50px;
+  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
+  margin-top: 0px
+}
+
+.Imagem_topo{
+  margin: 0;
+}
+
+.img_rodape {
+  width: auto;
+  background-color: #3cd2d3;
+  text-align: center;
+}
+
+.imglogo{
+  width: auto;
+  display: flex;
+  float: none;
+  margin-left: 25px;
+  height: inherit;
+
+}
+
+.button2 {
+  width: auto;
+  height: auto;
+  padding: 15px 25px;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+.button3 {
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-left: 2%;
+  padding: 15px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+.inp-pretensaosal {
+  text-align: right;
+}
+
+input.inp-pretensaosal::-webkit-outer-spin-button,
+input.inp-pretensaosal::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.inp-pretensaosal {
+  appearance: textfield;
+}
+
+.btnform{
+  margin-left: 10.8vw;
+  margin-bottom: 1%;
+  justify-content: end;
+  display: inline-block;
+}
+.voltarbtn{
+  width: 6vw;
+  height: auto;
+  position: relative;
+  padding: 15px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #159be9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+.continuarbtn{
+  width: 10vw;
+  height: auto;
+  margin-left: 0.7%;
+  position: relative;
+  padding: 15px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #159be9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+

@@ -1,0 +1,134 @@
+.menu{
+  height: 75px;
+  display: flex;
+  position: relative;
+}
+.button-candidato{
+  padding-left: 0.3vw;
+}
+.button-empresa{
+  padding-left: 0.1vw;
+}
+.button-sobre{
+  padding-left: 0.5vw;
+}
+.dark-button{
+  outline: none;
+  cursor: pointer;
+  padding-left: 79.3vw;
+}
+mat-card{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 4%;
+}
+
+.quadrado_menu {
+  width: auto;
+  padding-left: 46.2%;
+  height: 50px;
+  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
+  border-radius: 2px;
+  padding-bottom: 1px;
+}
+.quadrado_divisao {
+  width: auto;
+  height: 50px;
+  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
+  margin-top: -20px;
+}
+
+.img_rodape {
+  width: auto;
+  background: #3cd2d3;
+  text-align: center;
+}
+
+.imglogo{
+  width: auto;
+  display: flex;
+  float: none;
+  margin-left: 25px;
+  height: inherit;
+}
+
+.button2 {
+  width: auto;
+  height: auto;
+  padding: 15px 25px;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+.button3 {
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-left: 2%;
+  padding: 15px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+.button-opcoes {
+  margin-top: 7%;
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.button-opcoes {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 170px;
+  margin-bottom: 10px;
+
+
+
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #e9e9e9;
+  border: none;
+  border-radius: 55px;
+  box-shadow: 0 2px #999;
+  margin-left: 75px;
+
+}
+
+.button_img {
+  width: 10px; /* Diminui a largura da imagem para 30 pixels */
+  height: 10px; /* Diminui a altura da imagem para 30 pixels */
+}
+
+.button span {
+  display: block;
+}
+
+
+.nome_botao{
+  text-align: center;
+  margin-top: 250px;
+}

@@ -16,3 +16,4 @@ import { CadastroCandidatoComponent } from './cadastro-candidato/cadastro-candid
   ]
 })
 export class CadastroCandidatoModule { }
+

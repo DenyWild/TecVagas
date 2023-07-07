@@ -17,16 +17,49 @@
   cursor: pointer;
   padding-left: 79.3vw;
 }
-.menu-lc{
+.quadrado_menu {
   width: auto;
-  position: relative;
-  margin-top: 0;
-  height: auto;
-  display: flex;
-  padding-left: 70%;
-  padding-bottom: 2px;
+  padding-left: 46.2%;
+  height: 50px;
   background: #3cd2d3;
+  border-radius: 2px;
+  padding-bottom: 1px;
+}
 
+
+.button2 {
+  width: auto;
+  height: auto;
+  padding: 15px 25px;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+.button3 {
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-left: 2%;
+  padding: 15px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
 }
 
 .quadrado_divisao {

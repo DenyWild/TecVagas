@@ -6,6 +6,8 @@ import { Curso } from '../model/curso';
   templateUrl: './cursos-candidato.component.html',
   styleUrls: ['./cursos-candidato.component.scss'],
 })
+
+
 export class CursosCandidatoComponent implements OnInit{
 
   cursos: Curso[] = [

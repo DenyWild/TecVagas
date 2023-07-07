@@ -25,8 +25,8 @@ mat-card{
 
 .quadrado_menu {
   width: auto;
-  padding-left: 20px;
-  height: 70px;
+  padding-left: 46.2%;
+  height: 50px;
   background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
   border-radius: 2px;
   padding-bottom: 1px;
@@ -70,12 +70,10 @@ mat-card{
 }
 
 .button2 {
-  left: 870px;
-  right: 300px;
-  width: 100px;
-  position: sticky;
-   display: inline-block;
+  width: auto;
+  height: auto;
   padding: 15px 25px;
+  position: relative;
   font-size: 14px;
   cursor: pointer;
   text-align: center;
@@ -89,11 +87,10 @@ mat-card{
 }
 
 .button3 {
-  left: 990px;
-  right: 200px;
-  width: 200px;
-  position: sticky;
-   display: inline-block;
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-left: 2%;
   padding: 15px 25px;
   font-size: 14px;
   cursor: pointer;

@@ -1,1 +1,132 @@
-<p>cadastro-candidato works!</p>
+<mat-toolbar class="menu" color="primary">
+  <div class="button-candidato">
+     <button routerLink="/scandidato" mat-stroked-button color="white">Candidato</button>
+   </div>
+   <div class="button-empresa">
+     <button routerLink="/sempresa" mat-stroked-button color="white">Empresa</button>
+   </div>
+   <div class="button-sobre">
+     <button routerLink="/sobre" mat-stroked-button color="white">Sobre</button>
+   </div>
+   <div class="dark-button">
+     <button mat-icon-button><mat-icon>brightness_2</mat-icon></button>
+   </div>
+ </mat-toolbar>
+ <div class="quadrado_menu">
+  <br>
+  <button class="button2" routerLink="/home" mat-stroked-button>Home</button>
+  <button class="button3" routerLink="/home" mat-stroked-button>Cadastre seu Currículo</button>
+</div>
+
+<div class="quadrado_divisao"></div>
+
+<mat-card>
+  <form class="inp-candidatocad">
+    <mat-form-field class="inpnome-comp">
+      <mat-label>Nome Completo</mat-label>
+      <textarea matInput placeholder="Ex. Angular Almeida..."></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Email</mat-label>
+      <input type="email" matInput="emailFormControl" placeholder="Ex. pat@gmail.com">
+      <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+        Please enter a valid email address
+      </mat-error>
+      <mat-error *ngIf="emailFormControl.hasError('required')">
+        Email is <strong>required</strong>
+      </mat-error>
+    </mat-form-field>
+
+      <mat-form-field class="inpfone">
+        <mat-label>Telefone</mat-label>
+        <span matPrefix>+55 &nbsp;</span>
+        <input type="tel" matInput placeholder="(xx) x xxxx-xxxx">
+        <mat-icon matSuffix>phone</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="inp-cargo">
+        <mat-label>Cargo Desejado</mat-label>
+        <textarea matInput placeholder="Ex. Learning Angula material..."></textarea>
+      </mat-form-field>
+
+      <!-- <mat-icon>visibility_off</mat-icon> -->
+
+      <mat-form-field floatLabel="always">
+        <mat-label>Pretensão Salarial</mat-label>
+        <input matInput type="number" class="inp-pretensaosal" placeholder="0">
+        <span matTextPrefix>R$&nbsp;</span>
+        <span matTextSuffix>.00</span>
+      </mat-form-field>
+
+      <mat-form-field
+        [hideRequiredMarker]="hideRequiredControl.value"
+          [floatLabel]="getFloatLabelValue()">
+        <mat-label>Região da Vaga</mat-label>
+        <mat-select required>
+          <mat-option>Selecione</mat-option>
+          <mat-option value="AC">Acre</mat-option>
+          <mat-option value="AL">Alagoas</mat-option>
+          <mat-option value="AP">Amapá</mat-option>
+          <mat-option value="AM">Amazonas</mat-option>
+          <mat-option value="BA">Bahia</mat-option>
+          <mat-option value="CE">Ceará</mat-option>
+          <mat-option value="DF">Distrito Federal</mat-option>
+          <mat-option value="ES">Espírito Santo</mat-option>
+          <mat-option value="GO">Goiás</mat-option>
+          <mat-option value="MA">Maranhão</mat-option>
+          <mat-option value="MT">Mato Grosso</mat-option>
+          <mat-option value="MS">Mato Grosso do Sul</mat-option>
+          <mat-option value="MG">Minas Gerais</mat-option>
+          <mat-option value="PA">Pará</mat-option>
+          <mat-option value="PB">Paraíba</mat-option>
+          <mat-option value="PR">Paraná</mat-option>
+          <mat-option value="PE">Pernambuco</mat-option>
+          <mat-option value="PI">Piauí</mat-option>
+          <mat-option value="RJ">Rio de Janeiro</mat-option>
+          <mat-option value="RN">Rio Grande do Norte</mat-option>
+          <mat-option value="RS">Rio Grande do Sul</mat-option>
+          <mat-option value="RO">Rondônia</mat-option>
+          <mat-option value="RR">Roraima</mat-option>
+          <mat-option value="SC">Santa Catarina</mat-option>
+          <mat-option value="SP">São Paulo</mat-option>
+          <mat-option value="SE">Sergipe</mat-option>
+          <mat-option value="TO ">Tocantins </mat-option >
+        </mat-select>
+        <mat-hint align="end">Here's the dropdown arrow ^</mat-hint>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Senha</mat-label>
+        <input matInput [type]="hide ? 'password' : 'text'">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Confirmação de Senha</mat-label>
+        <input matInput [type]="hide ? 'password' : 'text'">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+
+  </form>
+  <div class="btnform">
+    <button class="voltarbtn" routerLink="/home" mat-stroked-button>Voltar</button>
+    <button class="continuarbtn" routerLink="/home" mat-stroked-button>Continuar</button>
+  </div>
+</mat-card>
+
+<div class="quadrado_divisao2"></div>
+
+ <div class="Imagem_centro">
+   <img src="/assets/rodape-1-3aD.png" style="width:100%">
+ </div>
+ <br>
+
+   <div class="img_rodape"style="text-align:center;">
+     <img src="/assets/logo-png-2.png" alt="Imagem do rodapé" style="width: 350px; height: 100px;">
+   </div>
+

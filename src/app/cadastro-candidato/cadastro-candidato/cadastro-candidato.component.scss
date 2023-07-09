@@ -1,7 +1,7 @@
 .menu{
   height: 75px;
   display: flex;
-  position: relative;
+  width: 100%;
 }
 .button-candidato{
   padding-left: 0.3vw;
@@ -15,7 +15,7 @@
 .dark-button{
   outline: none;
   cursor: pointer;
-  padding-left: 79.3vw;
+  margin: 0 0 0 auto;
 }
 
 mat-card{

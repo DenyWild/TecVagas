@@ -17,13 +17,14 @@
   cursor: pointer;
   margin: 0 0 0 auto;
 }
+
 .quadrado_menu {
-  width: auto;
-  padding-left: 46.2%;
-  height: 50px;
+   width: 100%;
+  height: 75px;
   background: #3cd2d3;
   border-radius: 2px;
   padding-bottom: 1px;
+  position: fixed;
 }
 
 
@@ -45,10 +46,11 @@
 }
 
 .button3 {
+  margin-top: 0.1vw;
+  margin-left: 0.5vw;
   width: auto;
-  height: auto;
-  position: relative;
-  margin-left: 2%;
+   height: auto;
+   position: relative;
   padding: 15px 25px;
   font-size: 14px;
   cursor: pointer;
@@ -61,6 +63,26 @@
   border-radius: 15px;
   box-shadow: 0 2px #999;
 }
+
+.button4 {
+  margin-top: 0.1vw;
+  margin-left: 48vw;  
+  width: auto;
+   height: auto;
+   position: relative;
+  padding: 15px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
 
 .quadrado_divisao {
   width: auto;

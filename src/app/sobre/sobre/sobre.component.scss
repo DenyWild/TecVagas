@@ -1,17 +1,95 @@
 .menu{
+  background-color: #3cd2d3;
   height: 75px;
   display: flex;
-  position: relative;
+  flex-direction: row;
 }
 .button-candidato{
-  padding-left: 0.3vw;
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
 }
 .button-empresa{
-  padding-left: 0.1vw;
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+  margin-left: 0.2vw;
 }
 .button-sobre{
-  padding-left: 0.5vw;
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+  margin-left: 1vw;
 }
+.button2 {
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  margin-left: 48vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+}
+
+.button3 {
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-left: 2%;
+  padding: 0.5vh 1vw;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+}
+
 .dark-button{
   outline: none;
   cursor: pointer;
@@ -19,17 +97,10 @@
 }
 mat-card{
   width: auto;
+  position: relative;
   text-align: left;
-  display:  grid;
-}
-
-.quadrado_menu {
-  width: auto;
-  padding-left: 46.2%;
-  height: 50px;
-  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
-  border-radius: 2px;
-  padding-bottom: 1px;
+  display:  flex;
+  flex-direction: column;
 }
 
 .quadrado_divisao {
@@ -50,15 +121,19 @@ mat-card{
 }
 .img-empresa{
   padding-bottom: 15vh;
+  position:absolute;
 }
+
 .Imagem_topo{
   margin: 0;
 }
 
 .img_rodape {
-  width: auto;
-  background: #3cd2d3;
-  text-align: center;
+   width: auto;
+   height: 50px;
+  // background: #3cd2d3;
+  // text-align: center;
+  //  margin-top: 45%;
 }
 
 .imglogo{
@@ -69,37 +144,13 @@ mat-card{
   height: inherit;
 }
 
-.button2 {
-  width: auto;
-  height: auto;
-  padding: 15px 25px;
-  position: relative;
-  font-size: 14px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 15px;
+
+h2{
+  text-decoration: underline double;
+}
+ol{
+  border-radius: 8px;
   box-shadow: 0 2px #999;
 }
 
-.button3 {
-  width: auto;
-  height: auto;
-  position: relative;
-  margin-left: 2%;
-  padding: 15px 25px;
-  font-size: 14px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 2px #999;
-}
+

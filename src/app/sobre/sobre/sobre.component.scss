@@ -1,8 +1,9 @@
 .menu{
+  width: 100%;
   background-color: #3cd2d3;
   height: 75px;
-  display: flex;
-  flex-direction: row;
+  position: fixed;
+  padding-bottom: 1px;
 }
 .button-candidato{
   width: auto;
@@ -96,32 +97,29 @@
   margin: 0 0 0 auto;
 }
 mat-card{
-  width: auto;
-  position: relative;
-  text-align: left;
-  display:  flex;
-  flex-direction: column;
+  display: grid;
+  position: static;
 }
 
 .quadrado_divisao {
   width: auto;
   height: 50px;
   background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
-  margin-top: -20px;
+  margin-top: 0;
 }
 
 .regular{
   width: auto;
-  position: absolute;
-  top: 0;
+  position: static;
   padding-left: 0.5vw;
-  padding-top: 1vh;
   text-align: left;
   font-family: 'Noto Sans', sans-serif;
 }
 .img-empresa{
-  padding-bottom: 15vh;
+  // padding-bottom: 15vh;
   position:absolute;
+  width: 50%;
+  opacity: 0.1;
 }
 
 .Imagem_topo{
@@ -129,11 +127,10 @@ mat-card{
 }
 
 .img_rodape {
-   width: auto;
-   height: 50px;
-  // background: #3cd2d3;
-  // text-align: center;
-  //  margin-top: 45%;
+  width: auto;
+  background: #3cd2d3;
+  text-align: center;
+  margin-top: 0;
 }
 
 .imglogo{
@@ -151,6 +148,10 @@ h2{
 ol{
   border-radius: 8px;
   box-shadow: 0 2px #999;
+  margin-bottom: 0;
+}
+.active-link{
+  font-weight: bold;
 }
 
 

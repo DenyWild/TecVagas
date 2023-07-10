@@ -1,22 +1,22 @@
-.menu{
-  height: 75px;
-  display: flex;
-  position: relative;
-}
-.button-candidato{
-  padding-left: 0.3vw;
-}
-.button-empresa{
-  padding-left: 0.1vw;
-}
-.button-sobre{
-  padding-left: 0.5vw;
-}
-.dark-button{
-  outline: none;
-  cursor: pointer;
-  margin: 0 0 0 auto;
-}
+// .menu{
+//   height: 75px;
+//   display: flex;
+//   position: relative;
+// }
+// .button-candidato{
+//   padding-left: 0.3vw;
+// }
+// .button-empresa{
+//   padding-left: 0.1vw;
+// }
+// .button-sobre{
+//   padding-left: 0.5vw;
+// }
+// .dark-button{
+//   outline: none;
+//   cursor: pointer;
+//   margin: 0 0 0 auto;
+// }
 
 .quadrado_menu {
    width: 100%;
@@ -66,7 +66,7 @@
 
 .button4 {
   margin-top: 0.1vw;
-  margin-left: 48vw;  
+  margin-left: 48vw;
   width: auto;
    height: auto;
    position: relative;
@@ -158,4 +158,8 @@
   background-color: #c4d1c4;
   box-shadow: 0 5px #d6d1d1;
   transform: translateY(2px);
+}
+
+.active-link{
+  font-weight: bold;
 }

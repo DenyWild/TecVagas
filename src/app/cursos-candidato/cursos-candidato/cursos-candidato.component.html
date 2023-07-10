@@ -1,32 +1,27 @@
-<mat-toolbar class="menu" color="primary">
-  <div class="button-candidato">
-     <button routerLink="/scandidato" mat-stroked-button color="white">Candidato</button>
-   </div>
-   <div class="button-empresa">
-     <button routerLink="/sempresa" mat-stroked-button color="white">Empresa</button>
-   </div>
-   <div class="button-sobre">
-     <button routerLink="/sobre" mat-stroked-button color="white">Sobre</button>
-   </div>
-   <div class="dark-button">
-     <button mat-icon-button><mat-icon>brightness_2</mat-icon></button>
-   </div>
+<mat-toolbar class="menu">
+  <button class="button-candidato" routerLink="/logincandidato" mat-stroked-button color="white">Candidato</button>
+  <button class="button-empresa" routerLink="/loginempresa" mat-stroked-button color="white">Empresa</button>
+  <button class="button-sobre" routerLink="/sobre" mat-stroked-button color="white">Sobre</button>
+  <button class="button2" routerLink="/home" mat-stroked-button>Inicio</button>
+  <button class="button3" routerLink="/home" mat-stroked-button>Cadastre-se Gratuitamente</button>
+   <button class="dark-button" mat-icon-button><mat-icon>brightness_2</mat-icon></button>
 </mat-toolbar>
-
+<div class="quadrado_divisao"></div>
+<br>
  <!-- Card com os inputs necessarios para o cadastrar um curso -->
 <mat-card>
   <form class="inpcursos">
-    <mat-form-field class="inpnome-curso">
+    <mat-form-field appearance="outline" class="inpnome-curso">
       <mat-label>Nome do Curso</mat-label>
       <textarea matInput placeholder="Ex. Learning Angula material..."></textarea>
     </mat-form-field>
 
-    <mat-form-field class="inpnome-inst">
+    <mat-form-field appearance="outline" class="inpnome-inst">
       <mat-label>Nome da Instituicao</mat-label>
       <textarea matInput placeholder="Ex. Youtube..."></textarea>
     </mat-form-field>
 
-    <mat-form-field class="data-input">
+    <mat-form-field appearance="outline" class="data-input">
       <mat-label>Escolha uma data</mat-label>
       <input matInput [matDatepicker]="picker">
       <mat-hint>MM/DD/YYYY</mat-hint>
@@ -36,7 +31,7 @@
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
 
-    <mat-form-field class="dur-input">
+    <mat-form-field appearance="outline" class="dur-input">
       <mat-label>Duracao do Curso</mat-label>
       <input matInput type="number" class="dur-curso" placeholder="0">
       <span matTextSuffix>/Horas</span>

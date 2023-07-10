@@ -1,17 +1,96 @@
 .menu{
+  position: fixed;
+  width: 100%;
+  background-color: #3cd2d3;
   height: 75px;
-  display: flex;
-  position: relative;
+  padding-bottom: 1px;
 }
 .button-candidato{
-  padding-left: 0.3vw;
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
 }
 .button-empresa{
-  padding-left: 0.1vw;
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+  margin-left: 0.2vw;
 }
 .button-sobre{
-  padding-left: 0.5vw;
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+  margin-left: 1vw;
 }
+.button2 {
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  margin-left: 48vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+}
+
+.button3 {
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-left: 2%;
+  padding: 0.5vh 1vw;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+}
+
 .dark-button{
   outline: none;
   cursor: pointer;
@@ -22,6 +101,7 @@ mat-card{
   margin: 2em auto;
   text-align: left;
   display: grid;
+  position: static;
 }
 .inpcursos{
   display: grid;
@@ -42,11 +122,26 @@ mat-card{
   width: 28vw;
   height: 9vh;
 }
+// mat-form-field{
+//   // background-color: #999;
+// }
+// .mat-mdc-form-field{
+//   float: none;
+//   background-color: #999;
+
+// }
+// mat-label{
+//   // background-color: #999;
+// }
 
 .toolbar_cursos{
   // background: linear-gradient(to left, #2bf791 0%, #53b0ea 100%);
   background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
   border-radius: 2px;
+}
+.inpcursos mat-form-field + mat-form-field {
+  position: unset;
+  float: none;
 }
 
 table{
@@ -56,7 +151,7 @@ width: 100%;
   width: auto;
   height: 50px;
   background: #3cd2d3;
-  margin-top: -20px
+  margin-top: 0;
 }
 
 .Imagem_topo{

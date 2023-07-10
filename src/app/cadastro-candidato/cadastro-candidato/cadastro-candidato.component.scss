@@ -1,17 +1,96 @@
 .menu{
-  height: 75px;
-  display: flex;
+  position: fixed;
   width: 100%;
+  background-color: #3cd2d3;
+  height: 75px;
+  padding-bottom: 1px;
 }
 .button-candidato{
-  padding-left: 0.3vw;
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
 }
 .button-empresa{
-  padding-left: 0.1vw;
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+  margin-left: 0.2vw;
 }
 .button-sobre{
-  padding-left: 0.5vw;
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+  margin-left: 1vw;
 }
+.button2 {
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  margin-left: 48vw;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+}
+
+.button3 {
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-left: 2%;
+  padding: 0.5vh 1vw;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #0c0b0b;
+  background-color: #f4f7f7;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px #999;
+}
+
 .dark-button{
   outline: none;
   cursor: pointer;
@@ -19,7 +98,7 @@
 }
 
 mat-card{
-  position: relative;
+  position: static;
   max-width: 38%;
   margin: 0em auto;
   background-color: #e9ecec;
@@ -32,38 +111,14 @@ mat-card{
   justify-content: center;
   display: flex;
   flex-direction: column;
-}
-.inpnome-comp{
-  width: auto;
-  height: auto;
-}
-.inpnome-inst{
-  width: auto;
-  height: auto;
-}
-.data-input{
-  width: auto;
-  height: auto;
-}
-.dur-input{
-  width: auto;
-  height: auto;
-}
-
-.quadrado_menu {
-  width: auto;
-  padding-left: 46.2%;
-  height: 50px;
-  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
-  border-radius: 2px;
-  padding-bottom: 1px;
+  float: none;
 }
 
 .quadrado_divisao {
   width: auto;
   height: 50px;
-  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
-  margin-top: -20px
+  background: #3cd2d3;
+  margin-top: 0;
 }
 .quadrado_divisao2 {
   width: auto;

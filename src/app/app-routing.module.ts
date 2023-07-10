@@ -5,9 +5,9 @@ import { CadastroCandidatoComponent } from './cadastro-candidato/cadastro-candid
 import { CursosCandidatoComponent } from './cursos-candidato/cursos-candidato/cursos-candidato.component';
 import { HomeModule } from './home/home.module';
 import { HomeComponent } from './home/home/home.component';
+import { LoginCandidatoComponent } from './login-candidato/login-candidato/login-candidato.component';
+import { LoginEmpresaComponent } from './login-empresa/login-empresa/login-empresa.component';
 import { LoginComponent } from './login/login/login.component';
-import { SCandidatoComponent } from './s-candidato/s-candidato/s-candidato.component';
-import { SEmpresaComponent } from './s-empresa/s-empresa/s-empresa.component';
 import { SobreComponent } from './sobre/sobre/sobre.component';
 
 const routes: Routes = [
@@ -16,14 +16,6 @@ const routes: Routes = [
   { path: 'cursos', component: CursosCandidatoComponent},
   { path: 'cursos',
   loadChildren: () => import('./cursos-candidato/cursos-candidato.module').then(m => m.CursosCandidatoModule)
-  },
-  { path: 'scandidato', component: SCandidatoComponent},
-  { path: 'scandidato',
-  loadChildren: () => import('./s-candidato/s-candidato.module').then(m => m.SCandidatoModule)
-  },
-  { path: 'sempresa', component: SEmpresaComponent},
-  { path: 'sempresa',
-  loadChildren: () => import('./s-empresa/s-empresa.module').then(m => m.SEmpresaModule)
   },
   { path: 'sobre', component: SobreComponent},
   { path: 'sobre',
@@ -36,6 +28,14 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'login',
   loadChildren: () => import('./login/login.module').then(m => m.LoginModule)
+  },
+  { path: 'loginempresa', component: LoginEmpresaComponent},
+  { path: 'loginempresa',
+  loadChildren: () => import('./login-empresa/login-empresa.module').then(m => m.LoginEmpresaModule)
+  },
+  { path: 'logincandidato', component: LoginCandidatoComponent},
+  { path: 'logincandidato',
+  loadChildren: () => import('./login-candidato/login-candidato.module').then(m => m.LoginCandidatoModule)
   }
 
 ];

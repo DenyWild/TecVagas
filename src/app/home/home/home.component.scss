@@ -1,107 +1,74 @@
-// .menu{
-//   height: 75px;
-//   display: flex;
-//   position: relative;
-// }
-// .button-candidato{
-//   padding-left: 0.3vw;
-// }
-// .button-empresa{
-//   padding-left: 0.1vw;
-// }
-// .button-sobre{
-//   padding-left: 0.5vw;
-// }
-// .dark-button{
-//   outline: none;
-//   cursor: pointer;
-//   margin: 0 0 0 auto;
-// }
-
-.quadrado_menu {
-   width: 100%;
-  height: 75px;
-  background: #3cd2d3;
-  border-radius: 2px;
-  padding-bottom: 1px;
+.menu{
   position: fixed;
+  width: 100%;
+  background: linear-gradient(to right, #3cd2d3 50%, #53b0ea 100%);
+  height: 110px;
+  z-index: 1000;
 }
-
-
+.button-candidato{
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.button-empresa{
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 0.2vw;
+}
+.button-sobre{
+  width: auto;
+  height: auto;
+  padding: 0.5vh 1vw;
+  position: relative;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 1vw;
+}
 .button2 {
   width: auto;
   height: auto;
-  padding: 15px 25px;
+  padding: 0.5vh 1vw;
+  margin-left: 48vw;
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 2px #999;
+
 }
 
 .button3 {
-  margin-top: 0.1vw;
-  margin-left: 0.5vw;
   width: auto;
-   height: auto;
-   position: relative;
-  padding: 15px 25px;
-  font-size: 14px;
+  height: auto;
+  position: relative;
+  margin-left: 2%;
+  margin-right: 0.5vw;
+  padding: 0.5vh 1vw;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 2px #999;
 }
-
-.button4 {
-  margin-top: 0.1vw;
-  margin-left: 48vw;
-  width: auto;
-   height: auto;
-   position: relative;
-  padding: 15px 25px;
-  font-size: 14px;
+.dark-button{
+  outline: none;
   cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 2px #999;
+  margin: 0 0 0 auto;
 }
-
-
-.quadrado_divisao {
-  width: auto;
-  height: 50px;
-  background: #3cd2d3;
-  margin-top: -20px
-
+.imagens{
+  padding-top: 110px;
 }
-
 .Imagem_topo{
-  margin: 0;
+  position: inherit;
 }
-
-// .img_rodape {
-//   width: auto;
-//   background-color: #3cd2d3;
-//   text-align: center;
-// }
-
 .imglogo{
   width: auto;
   display: flex;

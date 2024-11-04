@@ -1,41 +1,27 @@
 .menu{
   position: fixed;
   width: 100%;
-  background-color: #3cd2d3;
-  height: 75px;
-  padding-bottom: 1px;
+  background: linear-gradient(to right, #3cd2d3 50%, #53b0ea 100%);
+  height: 110px;
+  z-index: 1000;
 }
 .button-candidato{
   width: auto;
   height: auto;
   padding: 0.5vh 1vw;
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px #999;
 }
 .button-empresa{
   width: auto;
   height: auto;
   padding: 0.5vh 1vw;
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px #999;
   margin-left: 0.2vw;
 }
 .button-sobre{
@@ -43,16 +29,10 @@
   height: auto;
   padding: 0.5vh 1vw;
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px #999;
   margin-left: 1vw;
 }
 .button2 {
@@ -61,16 +41,9 @@
   padding: 0.5vh 1vw;
   margin-left: 48vw;
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px #999;
 }
 
 .button3 {
@@ -79,16 +52,9 @@
   position: relative;
   margin-left: 2%;
   padding: 0.5vh 1vw;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px #999;
 }
 
 .dark-button{
@@ -97,33 +63,24 @@
   margin: 0 0 0 auto;
 }
 
-mat-card{
+.card-form{
   position: static;
-  max-width: 38%;
-  margin: 0em auto;
+  max-width: 100%;
+  padding-top: 110px;
   background-color: #e9ecec;
+  align-items: center; /* Centraliza os elementos */
 }
 .inp-candidatocad{
-  padding-left: 25%;
-  padding-top: 1vh;
-  width: 50%;
+  padding-top: 0.6vh;
+  width: 30%;
   position: static;
-  justify-content: center;
   display: flex;
   flex-direction: column;
-  float: none;
-}
-
-.quadrado_divisao {
-  width: auto;
-  height: 50px;
-  background: #3cd2d3;
-  margin-top: 0;
 }
 .quadrado_divisao2 {
   width: auto;
   height: 50px;
-  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
+  background: linear-gradient(to right, #3cd2d3 50%, #53b0ea 100%);
   margin-top: 0px
 }
 
@@ -133,7 +90,7 @@ mat-card{
 
 .img_rodape {
   width: auto;
-  background-color: #3cd2d3;
+  background: linear-gradient(to right, #3cd2d3 50%, #53b0ea 100%);
   text-align: center;
 }
 
@@ -151,16 +108,9 @@ mat-card{
   height: auto;
   padding: 15px 25px;
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 2px #999;
 }
 
 .button3 {
@@ -169,16 +119,9 @@ mat-card{
   position: relative;
   margin-left: 2%;
   padding: 15px 25px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 2px #999;
 }
 
 .inp-pretensaosal {
@@ -195,10 +138,11 @@ input.inp-pretensaosal {
 }
 
 .btnform{
-  margin-left: 10.8vw;
   margin-bottom: 1%;
-  justify-content: end;
-  display: inline-block;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  position: static;
 }
 .voltarbtn{
   width: 6vw;

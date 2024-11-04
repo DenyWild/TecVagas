@@ -1,9 +1,10 @@
 .menu{
   position: fixed;
   width: 100%;
-  background-color: #3cd2d3;
-  height: 75px;
+  background: linear-gradient(to right, #3cd2d3 50%, #53b0ea 100%);
+  height: 110px;
   padding-bottom: 1px;
+  z-index: 1000;
 }
 .button-candidato{
   width: auto;
@@ -13,13 +14,6 @@
   font-size: 14px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px #999;
 }
 .button-empresa{
   width: auto;
@@ -29,14 +23,6 @@
   font-size: 14px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px #999;
-  margin-left: 0.2vw;
 }
 .button-sobre{
   width: auto;
@@ -46,14 +32,6 @@
   font-size: 14px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px #999;
-  margin-left: 1vw;
 }
 .button2 {
   width: auto;
@@ -64,13 +42,6 @@
   font-size: 14px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px #999;
 }
 
 .button3 {
@@ -82,13 +53,6 @@
   font-size: 14px;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #0c0b0b;
-  background-color: #f4f7f7;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 2px #999;
 }
 
 .dark-button{
@@ -96,15 +60,17 @@
   cursor: pointer;
   margin: 0 0 0 auto;
 }
-mat-card{
+.card-form{
   max-width: 98%;
   margin: 2em auto;
-  text-align: left;
-  display: grid;
-  position: static;
+  text-align: center;
+  display: flow-root;
 }
 .inpcursos{
-  display: grid;
+  display: flex;
+  position: static;
+  margin-top: 4vh;
+  align-items: center;
 }
 .inpnome-curso{
   width: 20%;
@@ -122,35 +88,25 @@ mat-card{
   width: 28vw;
   height: 9vh;
 }
-// mat-form-field{
-//   // background-color: #999;
-// }
-// .mat-mdc-form-field{
-//   float: none;
-//   background-color: #999;
-
-// }
-// mat-label{
-//   // background-color: #999;
-// }
-
 .toolbar_cursos{
-  // background: linear-gradient(to left, #2bf791 0%, #53b0ea 100%);
-  background: linear-gradient(to left, #3cd2d3 0%, #53b0ea 100%);
+  background: linear-gradient(to right, #3cd2d3 50%, #53b0ea 100%);
   border-radius: 2px;
 }
-.inpcursos mat-form-field + mat-form-field {
-  position: unset;
-  float: none;
-}
+// .inpcursos mat-form-field + mat-form-field {
+//   position: unset;
+//   float: none;
+// }
 
-table{
-width: 100%;
+// table{
+// width: 100%;
+// }
+mat-paginator{
+  margin-top: 1.6vh;
 }
 .quadrado_divisao {
   width: auto;
   height: 50px;
-  background: #3cd2d3;
+  background: linear-gradient(to right, #3cd2d3 50%, #53b0ea 100%);
   margin-top: 0;
 }
 
@@ -160,7 +116,7 @@ width: 100%;
 
 .img_rodape {
   width: auto;
-  background-color: #3cd2d3;
+  background: linear-gradient(to right, #3cd2d3 50%, #53b0ea 100%);
   text-align: center;
 }
 

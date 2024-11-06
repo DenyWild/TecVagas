@@ -3,6 +3,35 @@
   <button class="button-empresa" routerLink="/loginempresa" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" mat-stroked-button style="color: white">Empresa</button>
   <button class="button-sobre" routerLink="/sobre" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" mat-stroked-button style="color: white">Sobre</button>
   <button class="button2" routerLink="/home" mat-stroked-button style="color: white">Inicio</button>
-  <button class="button3" routerLink="/home" mat-stroked-button style="color: white">Cadastre-se Gratuitamente</button>
+  <button class="button3" routerLink="/cadcandidato" mat-stroked-button style="color: white">Cadastre-se Gratuitamente</button>
    <button class="dark-button" mat-icon-button style="color: white"><mat-icon>brightness_2</mat-icon></button>
 </mat-toolbar>
+<div class="quadrado_divisao"></div>
+<br>
+<mat-card class="card-form">
+  <form class="inplogin">
+    <mat-form-field appearance="outline" class="inpnome-usuario">
+      <mat-label>E-mail</mat-label>
+      <textarea matInput placeholder="Ex: E-mail, telefone..."></textarea>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="inpsenha">
+      <mat-label>Enter your password</mat-label>
+      <input matInput [type]="hide() ? 'password' : 'text'" />
+      <button
+        mat-icon-button
+        matSuffix
+        (click)="clickEvent($event)"
+        [attr.aria-label]="'Hide password'"
+        [attr.aria-pressed]="hide()"
+      >
+        <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button>
+    </mat-form-field>
+    <button class="continuarbtn" routerLink="/cursos" mat-stroked-button>Entrar</button>
+  </form>
+</mat-card>
+
+
+<div class="img_rodape"style="text-align:center;">
+  <img src="/assets/logo-png-2.png" alt="Imagem do rodapé" style="width: 350px; height: 100px;">
+</div>

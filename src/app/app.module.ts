@@ -8,6 +8,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
+import {MatStepperModule} from '@angular/material/stepper';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,7 +28,8 @@ import { AppComponent } from './app.component';
     MatSlideToggleModule,
     MatCardModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    MatStepperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

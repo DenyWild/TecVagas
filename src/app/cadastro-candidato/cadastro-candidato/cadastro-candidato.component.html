@@ -1,11 +1,9 @@
-<!-- <div class="quadrado_divisao"></div> -->
 <mat-toolbar class="menu">
   <button class="button-candidato" routerLink="/logincandidato" mat-stroked-button style="color:white">Candidato</button>
   <button class="button-empresa" routerLink="/loginempresa" mat-stroked-button style="color:white">Empresa</button>
   <button class="button-sobre" routerLink="/sobre" mat-stroked-button style="color:white">Sobre</button>
-  <button class="button2" routerLink="/home" mat-stroked-button>Inicio</button>
-  <button class="button3" routerLink="/home" mat-stroked-button>Cadastre-se Gratuitamente</button>
-   <button class="dark-button" mat-icon-button><mat-icon>brightness_2</mat-icon></button>
+  <button class="button2" routerLink="/home" mat-stroked-button style="color:white">Inicio</button>
+   <button class="dark-button" mat-icon-button style="color:white"><mat-icon>brightness_2</mat-icon></button>
 </mat-toolbar>
 
 <mat-card class="card-form">
@@ -17,7 +15,7 @@
 
     <mat-form-field class="inp-email">
       <mat-label>Email</mat-label>
-      <input type="email" matInput="emailFormControl" placeholder="Ex. pat@gmail.com">
+      <input type="email" matInput="emailFormControl" placeholder="Ex. junin_do_som80hz@gmail.com">
       <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
         Please enter a valid email address
       </mat-error>
@@ -103,7 +101,7 @@
   </form>
   <div class="btnform">
     <button class="voltarbtn" routerLink="/home" mat-stroked-button>Voltar</button>
-    <button class="continuarbtn" routerLink="/home" mat-stroked-button>Continuar</button>
+    <button class="continuarbtn" routerLink="/cadcurriculo" mat-stroked-button>Continuar</button>
   </div>
 </mat-card>
 

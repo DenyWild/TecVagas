@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 @Component({
   selector: 'app-login-candidato',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./login-candidato.component.scss']
 })
 export class LoginCandidatoComponent {
+  hide = signal(true);
+  clickEvent(event: MouseEvent) {
+    this.hide.set(!this.hide());
+    event.stopPropagation();
+  }
 
 }

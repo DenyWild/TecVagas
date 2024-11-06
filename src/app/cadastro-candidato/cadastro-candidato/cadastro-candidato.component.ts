@@ -26,4 +26,6 @@ export class CadastroCandidatoComponent {
       return this.floatLabelControl.value || 'auto';
     }
 
+
+
 }
